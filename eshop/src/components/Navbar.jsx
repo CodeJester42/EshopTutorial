@@ -7,7 +7,8 @@ const Navbar = () => {
         <div className='container'>
             {/* Logo and Links section */}
                 <div>
-                    <a href="">
+                    <a href=""
+                    className=''>
                         ESHOP
                     </a>
                 </div>

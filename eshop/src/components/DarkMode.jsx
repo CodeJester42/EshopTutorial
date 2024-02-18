@@ -9,6 +9,7 @@ const DarkMode = () => {
     const element = document.documentElement;
     console.log(element);
 
+    // set theme to localStorage and html element
     React.useEffect(() => {
         localStorage.setItem('theme', theme);
         if (theme === 'dark') {
@@ -31,8 +32,7 @@ const DarkMode = () => {
             onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
             src={DarkButton} 
             alt='dark mode button'
-            className={`w-12 cursor-pointer
-             `} 
+            className={`w-12 cursor-pointer`} 
         />
     </div>
   )

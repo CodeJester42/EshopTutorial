@@ -1,5 +1,8 @@
 import React from 'react'
 import Slider from "react-slick";
+import Image1 from '../../images/category/headphone.png';
+import Image2 from '../../images/category/vr.png';
+import Image3 from '../../images/category/macbook.png';
 
 const HeroData = [
     {
@@ -41,7 +44,7 @@ const Hero = () => {
     <div>
       <div className='w-full'>
         {/* Hero Section */}
-        <Slider {...settings}></Slider>
+        <Slider { ... settings}>
           {
             HeroData.map((data) => (
               <div className='grid grid-cols-1 sm:grid-cols-2'>
@@ -66,6 +69,7 @@ const Hero = () => {
               </div>
             ))
           }
+        </Slider>
         </div>
     </div>
   );

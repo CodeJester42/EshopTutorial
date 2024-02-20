@@ -20,7 +20,7 @@ const HeroData = [
       title2: "Virtual",
     },
     {
-      id: 1,
+      id: 3,
       img: Image3,
       subtitle: "Beats Solo",
       title: "Branded",
@@ -40,6 +40,7 @@ const Hero = () => {
     pauseOnHover: false,
     pauseOnFocus: true,
   };
+  
   return (
     <div>
       <div className='w-full'>
@@ -70,7 +71,7 @@ const Hero = () => {
             ))
           }
         </Slider>
-        </div>
+      </div>
     </div>
   );
 }

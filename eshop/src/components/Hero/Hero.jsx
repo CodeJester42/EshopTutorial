@@ -15,14 +15,14 @@ const HeroData = [
     {
       id: 2,
       img: Image2,
-      subtitle: "Beats Solo",
+      subtitle: "Bluetooth",
       title: "Wireless",
       title2: "Virtual",
     },
     {
       id: 3,
       img: Image3,
-      subtitle: "Beats Solo",
+      subtitle: "HP, Apple, Asus",
       title: "Branded",
       title2: "Laptops",
     },
@@ -40,7 +40,7 @@ const Hero = () => {
     pauseOnHover: false,
     pauseOnFocus: true,
   };
-  
+
   return (
     <div>
       <div className='w-full'>
